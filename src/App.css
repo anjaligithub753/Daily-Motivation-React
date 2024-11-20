@@ -1,0 +1,90 @@
+/* App.css */
+
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height */
+}
+
+/* Header styles */
+.app-header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.app-header p {
+    margin: 0;
+}
+
+/* Quote section styles */
+.quote-section {
+    background-color: white; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 40px;
+    text-align: center;
+    max-width: 600px; /* Limit width */
+    margin: 20px; /* Spacing around */
+}
+
+.quote-display {
+    font-size: 1.5em; /* Larger font for the quote */
+    font-style: italic; /* Italic for emphasis */
+    margin: 0 0 10px; /* Spacing */
+}
+
+.quote-author {
+    font-size: 1.2em; /* Slightly smaller font for the author */
+    color: #666; /* Gray color */
+}
+
+/* Action button styles */
+.action-button {
+    background-color: #FF9800; /* Orange background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 1.2em; /* Larger font */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.action-button:hover {
+    background-color: #e68900; /* Darker orange on hover */
+}
+
+/* Feedback message styles */
+.feedback-message {
+    margin-top: 15px;
+    font-size: 1em; /* Normal size */
+    color: #4CAF50; /* Green color for feedback */
+}
+
+/* Footer styles */
+.app-footer {
+    margin-top: auto; /* Push footer to bottom */
+    background-color: #4CAF50; /* Same color as header */
+    color: white; /* White text */
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
